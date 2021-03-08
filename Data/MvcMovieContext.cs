@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MovieListings.Models
 {
-    public class MvcMoviesContext : DbContext
+    public class MvcMovieContext : DbContext
     {
-        public MvcMoviesContext(DbContextOptions<MvcMoviesContext> options) :base(options)
+        public MvcMovieContext(DbContextOptions<MvcMovieContext> options) :base(options)
         {
 
         }

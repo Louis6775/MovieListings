@@ -27,7 +27,7 @@ namespace MovieListings
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<MvcMoviesContext>(options =>
+            services.AddDbContext<MvcMovieContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("MVCMovieContext")));
 
         }
